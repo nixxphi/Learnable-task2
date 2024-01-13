@@ -12,3 +12,8 @@ In the software development landscape, version control is critical for maintaini
 ° Git is a distributed version control system (DVCS). It functions as a toolset for tracking changes in files, creating snapshots (commits) at key points, and enabling developers to revert to previous versions or work independently on separate branches. Git operates locally, allowing offline work and flexibility.
 
 ° GitHub is a cloud-based Git repository hosting service. Think of it as a platform where developers store their Git repositories (projects) and collaborate. GitHub offers features like social coding, issue tracking, pull requests for merging code changes, and a vibrant community for code sharing and learning.
+
+###Github alternatives:
+° Gitlab
+° BitBucket
+° Gitea
