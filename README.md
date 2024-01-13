@@ -40,3 +40,19 @@ _Here's how it works_:
 • Deconstruct: Git temporarily "detaches" your commits from your current branch.
 • Reconstruct: It then applies your commits sequentially onto the new base branch you specify, creating a clean, linear history.
 *The command*: git rebase <base-branch>.
+
+######Cherry picking:
+Imagine your code is like a cherry orchard.  Each commit is a ripe cherry, and you want to pick some specific ones (fixes, features) and add them to another branch (basket) without taking the whole tree (all the other commits). That's what git cherry-pick does!
+
+_Here's how it works_:
+
+• Identify the cherry: You choose the specific commit (by its unique ID) you want to pick.
+• Pick and transplant: Git extracts that commit and applies its changes to your current branch.
+
+_Key Points_:
+
+• Independent changes: Cherry-picking doesn't merge branches, it just copies the commit's changes.
+• Potential conflicts: If the changes clash with your current branch, you might need to resolve conflicts manually.
+• Careful history: Cherry-picking rewrites history slightly, so its to be used strategically on private branches.
+
+_The command_: git cherry-pick <commit-ID>
