@@ -31,7 +31,7 @@ The key difference between git fetch and git pull lies in how they handle downlo
 *Git Pull*:
 • Downloads and merges changes: Performs a git fetch in the background, then immediately tries to merge the downloaded changes into your current branch. This is like getting the packages, unwrapping them, and trying to assemble them right away.
 • Working directory updates: Merges the remote changes into your local files, potentially causing conflicts if local edits overlap. This is convenient for quickly incorporating updates, but can be risky if you haven't reviewed the changes first.
-• It is shorthand for git fetch + git merge: Essentially a two-step process combined for convenience.
+• It is shorthand for git fetch + git merge: Essentially, a two-step process combined for convenience.
 
 #####Explaining Git rebase:
 Imagine a timeline of commits in your Git branch. Rebase is like picking up your commits, moving them to a new starting point, and neatly rearranging them on top of different commits. It is like reorganizing a bookshelf to make it more coherent.
